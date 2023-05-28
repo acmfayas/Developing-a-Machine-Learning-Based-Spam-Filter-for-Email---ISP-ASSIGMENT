@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+.login-page{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Orbitron', sans-serif;
+}
+.login-page .left-side{
+    height: 100vh;
+    background-image: url("../../img/bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    left: 26px;
+    color: #f8f9fa;
+    flex-direction: column;
+   
+}
+.login-page .left-side .content{
+    position: absolute;
+    top: 46%;
+    left: 23px;
+    color: white;
+}
+.login-page .left-side .content h3{
+    font-weight: 600;
+}
+.login-page .left-side .content span{
+    font-size:20px;
+    padding-left: 10px;
+}
+.login-page .right-side{
+
+    display: flex;
+    justify-content: center;
+    background-image: url("../../img/illustration.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+}
+.login-page .loginpage{
+    margin-top: 50px;
+}
+.login-page .right-side .img{
+    position: absolute;
+    top: -18px;
+    right: 0px;
+}
+.login-page .right-side .content .login {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.login-page .right-side .content .login .section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
